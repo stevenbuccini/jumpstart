@@ -34,7 +34,7 @@ def rails_5?
 end
 
 def rails_6?
-  Gem::Requirement.new(">= 6.0.0.beta1", "< 7").satisfied_by? rails_version
+  Gem::Requirement.new(">= 6.1.0", "< 7").satisfied_by? rails_version
 end
 
 def add_gems
